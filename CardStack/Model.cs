@@ -4,6 +4,10 @@ using System.Linq;
 
 namespace CardStack
 {
+    /*
+     * Класс Model содержит словарь для множества колод и реализует методы интерфейса IDeck
+     * Выполняет роль контроллера
+     */
     public class Model:IDeck
     {
         private Dictionary<string,Deck> stackOfDecks;

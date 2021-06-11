@@ -1,6 +1,11 @@
 ﻿using System;
 namespace CardStack
 {
+    /*
+     * Класс Card
+     * Содержит поля масть и достоинство
+     * Оба поля принимают значения из соответствующих перечислений
+     */
     public enum Suits
     {
         Hearts,

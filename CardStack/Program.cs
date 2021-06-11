@@ -12,6 +12,9 @@ namespace CardStack
             ShowInstructions();
         }
 
+        /*
+         * Простой консольный интерфейс для тестирования 
+         */
         public static void ShowInstructions()
         {
             Console.WriteLine("Press 1 to create new deck");
@@ -83,7 +86,7 @@ namespace CardStack
                 Console.WriteLine(i.suit.ToString() + "  " + i.value.ToString());
             }
 
-            Console.WriteLine(table.GetString("will"));
+            //Console.WriteLine(table.GetString("will"));
             ReadInstructions();
         }
         
